@@ -102,7 +102,7 @@ WHERE arrival_time < departure_time;
 
 import psycopg2
 
-conn = psycopg2.connect(database="flight-app-demo", user="postgres", password="rr01ar99", host="localhost",port='5432')
+conn = psycopg2.connect(database="flight-app-demo", user="postgres", password="", host="localhost",port='5432')
 cursor = conn.cursor()
 
 cursor.execute("""
